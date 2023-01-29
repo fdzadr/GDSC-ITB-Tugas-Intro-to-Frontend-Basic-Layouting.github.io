@@ -1,6 +1,8 @@
 # GDSC-ITB-Tugas-Intro-to-Frontend-Basic-Layouting.github.io
 
-Deskripsi : Program menu restaurant
+Deskripsi : Program menu restaurant 
+*Not responsive
+*Still undeployed
 
 Pembuat : Fidzal Adrian
 
