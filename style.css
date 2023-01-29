@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/aset/pijares.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} 
+
+.navbar {
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    margin: 10px 0 0 150px;
+} 
+
+.navbar ul li {
+    display: inline-block;
+    margin: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.navbar a:after {
+    bottom: -10px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+    left: 0; 
+}
+
+.box {
+    width: 205px;
+    height: 38px;
+    border: 2px solid orange;
+    position: absolute;
+    margin-left: 76.5%;
+    top: 3%;
+    border-radius: 50px;
+}
+
+.search input {
+    position: absolute;
+    border: none;
+    margin-left: 27%;
+    top: 3.8%;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    width: 170px;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+}
+
+.search i {
+    position: absolute;
+    margin-left: 40%;
+    top: 4.9%;
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+    position: relative;
+    margin: 15%;
+}
+
+.welcome h3 {
+    font-size: 35px;
+    color: white;
+}
+
+.welcome p {
+    padding-top: 2%;
+    color: white;
+    font-size: 25px;
+}
+
+.welcome span {
+    color: orange;
+}
+
+.tombol {
+    position: relative;
+    text-align: center;
+    bottom: 25%;
+}
+
+.tombol_mulai {
+    background-color: transparent;
+    border: 3px solid orange;
+    border-radius: 50px;
+    padding: 16px 32px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.tombol_mulai:hover {
+    background-color: orange;
+    transition: 0.3s;
+
+}
+
+.tombol_mulai:hover::after {
+    background-color: orange;
+}
+
+.isi {
+    position: relative;
+    margin: 5% 0 0 0;
+}
+
+.isi h1 {
+    text-align: center;
+    font-size: 72px;
+    color: green;
+    font-family: 'Exo', sans-serif;
+}
+
+.isi hr {
+    margin: auto;
+    width: 25%;
+    border-top: 5px solid orange;
+    border-radius: 5px;
+}
+
+.isi p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#menu {
+    margin-top: 10%;
+}
+
+#menu h1 {
+    text-align: center;
+    font-size: 72px;
+    color: green;
+    font-family: 'Exo', sans-serif;
+}
+
+#menu hr {
+    margin: auto;
+    width: 25%;
+    border-top: 5px solid orange;
+    border-radius: 5px;
+}
+
+.menu-items {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.menu-item {
+    flex-basis: 24%;
+}
+  
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+  
+.menu-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.menu-item li {
+    margin: 5% 5% 5% 5%;
+}
+  
+.footer {
+    position: absolute;
+    margin: 5% 0 0 0;
+    width: 100%;
+    z-index: -1;
+    background-color: black;
+    color: white;
+}
+
+.foot {
+    position: relative;
+    padding: 3% 0 0 0;
+    text-align: center;
+}
+
+.foot p {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
