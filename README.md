@@ -1,10 +1,10 @@
 # GDSC-ITB-Tugas-Intro-to-Frontend-Basic-Layouting.github.io
 
 Deskripsi : Program menu restaurant 
-*Not responsive
-*Still undeployed
 
 Pembuat : Fidzal Adrian
+
+Link : https://fdzadr.github.io/GDSC-ITB-Tugas-Intro-to-Frontend-Basic-Layouting.github.io/ (*not responsive and still have some errors)
 
 Deskripsi Tugas
 Buatlah tampilan website yang menyajikan informasi menu makanan. Tampilan ini terdiri atas dua bagian, yaitu:
