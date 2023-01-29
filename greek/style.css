@@ -1,0 +1,40 @@
+#recipe {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.recipe-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.ingredients {
+    width: 40%;
+    margin-top: 1%;
+}
+
+.ingredients h3 {
+    text-align: left;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.instructions {
+    width: 50%;
+}
+
+.instructions h3 {
+    text-align: left;
+}
+
+.instructions ol {
+    list-style: decimal;
+    padding: 0 0 0 20px;
+    text-align: left;
+}
